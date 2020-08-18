@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP RT9058-50GV
+D 36V, 2μA IQ, 100mA Low Dropout Voltage Linear Regulator
+K linear regulator ldo fixed positive
+F https://www.richtek.com/assets/product_file/RT9058/DS9058-01.pdf
+$ENDCMP
+#
+#End Doc Library
