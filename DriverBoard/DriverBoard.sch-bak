@@ -19,7 +19,7 @@ U 1 1 5F3B3D20
 P 4000 3300
 F 0 "VCC1" H 4200 3300 50  0000 C CNN
 F 1 "Conn_01x01" H 3918 3166 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4000 3300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4000 3300 50  0001 C CNN
 F 3 "~" H 4000 3300 50  0001 C CNN
 	1    4000 3300
 	-1   0    0    1   
@@ -30,7 +30,7 @@ U 1 1 5F3B4A29
 P 4000 3800
 F 0 "ENA1" H 4200 3800 50  0000 C CNN
 F 1 "Conn_01x01" H 3918 3666 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4000 3800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4000 3800 50  0001 C CNN
 F 3 "~" H 4000 3800 50  0001 C CNN
 	1    4000 3800
 	-1   0    0    1   
@@ -41,7 +41,7 @@ U 1 1 5F3B4E58
 P 4000 4300
 F 0 "DIM1" H 4200 4300 50  0000 C CNN
 F 1 "Conn_01x01" H 3918 4166 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4000 4300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4000 4300 50  0001 C CNN
 F 3 "~" H 4000 4300 50  0001 C CNN
 	1    4000 4300
 	-1   0    0    1   
@@ -89,7 +89,7 @@ U 1 1 5F3B8792
 P 4000 4800
 F 0 "GND1" H 4200 4800 50  0000 C CNN
 F 1 "Conn_01x01" H 3918 4666 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 4000 4800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 4000 4800 50  0001 C CNN
 F 3 "~" H 4000 4800 50  0001 C CNN
 	1    4000 4800
 	-1   0    0    1   
@@ -201,7 +201,7 @@ U 1 1 5F3C4648
 P 7800 3300
 F 0 "LED+1" H 8000 3300 50  0000 C CNN
 F 1 "Conn_01x01" H 7718 3166 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 7800 3300 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7800 3300 50  0001 C CNN
 F 3 "~" H 7800 3300 50  0001 C CNN
 	1    7800 3300
 	1    0    0    -1  
@@ -212,7 +212,7 @@ U 1 1 5F3C4BE5
 P 7800 4800
 F 0 "LED-1" H 8000 4800 50  0000 C CNN
 F 1 "Conn_01x01" H 7718 4666 50  0001 C CNN
-F 2 "TestPoint:TestPoint_Pad_3.0x3.0mm" H 7800 4800 50  0001 C CNN
+F 2 "TestPoint:TestPoint_Pad_1.5x1.5mm" H 7800 4800 50  0001 C CNN
 F 3 "~" H 7800 4800 50  0001 C CNN
 	1    7800 4800
 	1    0    0    -1  
@@ -357,7 +357,7 @@ F 1 "200K" V 6134 4350 50  0000 C CNN
 F 2 "Footprints:Potentiometer_Bourns_3313J_Vertical" H 6250 4350 50  0001 C CNN
 F 3 "~" H 6250 4350 50  0001 C CNN
 	1    6250 4350
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	6250 4500 6100 4500
@@ -370,7 +370,7 @@ F 1 "500K" V 6434 4350 50  0000 C CNN
 F 2 "Footprints:Potentiometer_Bourns_3313J_Vertical" H 6550 4350 50  0001 C CNN
 F 3 "~" H 6550 4350 50  0001 C CNN
 	1    6550 4350
-	0    1    1    0   
+	0    -1   1    0   
 $EndComp
 Wire Wire Line
 	6100 4350 6100 4500
